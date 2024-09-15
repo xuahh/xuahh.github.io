@@ -1,1 +1,51 @@
+body {
+  background: #fcf1e7;
+  font-family: verdana;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: cursive;
+  color: #aa4949;
+  text-align: center;
+  text-shadow: -4px 4px lightpink;
+}
+
+h2 {
+  color: #895846;
+  font-style: italic;
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+img {
+  float: left;
+  width: 250px;
+  margin: 7px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #a75c5c;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.citation {
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+}
 
